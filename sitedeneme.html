@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özel Eğitim Kursları</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sitedeneme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Menü Kısmı Başlangıcı-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand p-5" href="#">Özel Eğitim Kursları</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#menu">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Slider Kısmı-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/egitim_modelleri.jpg" class="d-block w-100 resimslider" alt="#">
+            </div>
+            <div class="carousel-item">
+                <img src="img/TBA-Ana-Görsel-2.jpg" class="d-block w-100 resimslider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/ozel-egitim-atolye.png" class="d-block w-100 resimslider" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Hakkımızda Kısmı Bşlangıc-->
+    <section class="hakkimizda1" id="hakkimizda">
+        <div class="container">
+            <h2 class="mb-5">Hakkımızda</h2>
+            <hr class="ayrac"> <i class="fa-solid fa-pencil igri"></i>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nesciunt error earum nostrum adipisci
+                recusandae maiores! Ipsam minima, omnis velit illum natus in nihil quo voluptatibus quas magnam eveniet
+                et.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut porro explicabo veniam quisquam
+                voluptate labore quis temporibus quas error! Nostrum ipsa magni exercitationem iusto, tempora sapiente
+                porro nemo labore reprehenderit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nesciunt error earum nostrum adipisci
+                recusandae maiores! Ipsam minima, omnis velit illum natus in nihil quo voluptatibus quas magnam eveniet
+                et.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut porro explicabo veniam quisquam
+                voluptate labore quis temporibus quas error! Nostrum ipsa magni exercitationem iusto, tempora sapiente
+                porro nemo labore reprehenderit.</p>
+        </div>
+    </section>
+
+    <!--Ekibimiz Kısmı Bşlangıc-->
+
+    <section id="ekibimiz">
+        <div class="container">
+            <h2>Ekibimiz</h2>
+            <hr class="ayrac"> <i class="fa-solid fa-pencil ibeyaz" id="ekibimiz-i"></i>
+
+        </div>
+        <div class="cards text-center">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 ekip-card">
+                        <img src="img/istockphoto-1089633230-612x612.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pınar Yılmaz</h5>
+                            <p class="card-text">Dil Konuşma Terapisti.</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning card-button">Hemen Eğitim Al</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ekip-card">
+                        <img src="img/istockphoto-1335941248-170667a.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hakan Taşel</h5>
+                            <p class="card-text">Özel Eğitim Öğretmeni.</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning card-button">Hemen Eğitim Al</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ekip-card">
+                        <img src="img/istockphoto-1347495868-170667a.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Enes Türkben</h5>
+                            <p class="card-text">Sosyal Çalışmacı</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning card-button">Hemen Eğitim Al</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--Galeri Kısmı Başlangıcı-->
+
+    <section id="galeri">
+        <div class="container">
+            <h2>Galeri</h2>
+            <hr class="ayrac"> <i class="fa-solid fa-pencil igri" id="ekibimiz-i"></i>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye1.jpeg">
+                        <img src="img/atölye1.jpeg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye2.jpg">
+                        <img src="img/atölye2.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye3.jpg">
+                        <img src="img/atölye3.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye4.jpg">
+                        <img src="img/atölye4.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye5.jpeg">
+                        <img src="img/atölye5.jpeg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye6.jpg">
+                        <img src="img/atölye6.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye77.jpg">
+                        <img src="img/atölye77.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <a href="img/atölye8.jpg">
+                        <img src="img/atölye8.jpg" class="figure-img img-fluid rounded shadow" alt="...">
+                    </a>
+                </figure>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--İletişim Kısmı-->
+
+    <section id="iletisim">
+        <div class="container">
+            <h2>İletişim</h2>
+            <hr class="ayrac"> <i class="fa-solid fa-pencil ibeyaz" id="ekibimiz-i"></i>
+
+        </div>
+        <div class="col2">
+            <form action="" class="col-md-10 text-left m-auto">
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Ad:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Soyad:</label>
+                    <input type="text" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">E-mail:</label>
+                    <input type="email" class="form-control col-md-8">
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-md-4 align-self-center">Mesajınız:</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control col-md-8"></textarea>
+                </div>
+                <div class="form-group row">
+                  <button type="sumbit" class="col-md-3 btn btn-warning">Gönder</button>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+    <!--Footer Kısmı-->
+
+    <footer>
+        <div class="bg-dark text-light text-center">
+            <p class="aligng-center p-5">
+                Tüm Hakları Saklıdır 2022 @copy|2022
+                <br>
+                 Designed by <b>Enes Türkben</b>
+            </p>
+            
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
